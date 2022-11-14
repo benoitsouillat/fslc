@@ -4,6 +4,10 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+p {
+    color: beige;
+}
+
 #navbarSupportedContent {
     margin-right: 8%;
 }
