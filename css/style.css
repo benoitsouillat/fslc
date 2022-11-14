@@ -1,5 +1,9 @@
 h1 {
-    background: linear-gradient(to right, 4242ff, grey, red);
+    background: linear-gradient(to right, #4242ff, grey, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#navbarSupportedContent {
+    margin-right: 8%;
 }
