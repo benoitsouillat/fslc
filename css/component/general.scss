@@ -1,8 +1,17 @@
+@import 'variables';
+
+
 body {
-    color: beige;
+    color: $text-main;
 }
-h1 {
+h1, h2 {
     background: linear-gradient(to right, #4242ff, grey, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 15px;
+}
+
+
+#navbarSupportedContent {
+    margin-right: 8%;
 }

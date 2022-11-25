@@ -1,9 +1,54 @@
+/* Color */
 body {
   color: beige;
 }
 
-h1 {
+h1, h2 {
   background: linear-gradient(to right, #4242ff, grey, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}/*# sourceMappingURL=main.css.map */
+  margin: 15px;
+}
+
+#navbarSupportedContent {
+  margin-right: 8%;
+}
+
+/* Color */
+#carou-discipline {
+  height: 38vh;
+}
+#carou-discipline .card {
+  width: 100%;
+  background-color: #212529;
+  margin: auto;
+  border: unset;
+}
+#carou-discipline img {
+  height: 22.8vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+  #carou-discipline .card {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #carou-discipline {
+    height: 45vh;
+  }
+  #carou-discipline img {
+    height: 31.5vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #carou-discipline {
+    height: 65vh;
+  }
+  #carou-discipline img {
+    height: 52vh;
+  }
+}
+/* Color *//*# sourceMappingURL=main.css.map */
