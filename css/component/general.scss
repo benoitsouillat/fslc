@@ -4,7 +4,9 @@
 body {
     color: $text-main;
 }
-h1, h2 {
+
+h1,
+h2 {
     background: linear-gradient(to right, #4242ff, grey, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -15,4 +17,30 @@ h1, h2 {
 
 #navbarSupportedContent {
     margin-right: 8%;
+}
+
+#footer {
+    .list-icon {
+        flex-wrap: wrap;
+        margin: 5px;
+
+        img {
+            max-width: 150px;
+            max-height: 100px;
+            margin: 5px;
+        }
+        .footer-img-container {
+            width: 160px;
+        }
+        
+    }
+
+    @media screen and (min-width: 768px)
+
+    /* Medium Screen */
+        {
+        .list-icon {
+            flex-wrap: nowrap;
+        }
+    }
 }
