@@ -8,6 +8,7 @@ h1, h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 15px;
+  text-align: center;
 }
 
 #navbarSupportedContent {
@@ -28,6 +29,38 @@ h1, h2 {
   height: 22.8vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.club-item {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  max-width: 360px;
+  padding: 15px 0;
+}
+.club-item img {
+  max-width: 90%;
+  width: 250px;
+  border-radius: 25% 10%;
+  max-height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.club-item figcaption {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 80%;
+}
+.club-item figcaption h3 {
+  margin-top: 15px;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 576px) {
