@@ -1,0 +1,19 @@
+
+.carou-collie-container {
+    height: 120px;
+    display: none;
+
+    @media all and (min-width: 576px) {
+        display: block;
+    }
+
+}
+.collie-img {
+    width: 170px;
+    height: 110px;
+}
+.hide-medium {
+    @media all and (min-width: 576px) {
+        display: none;
+    }
+}

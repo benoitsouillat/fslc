@@ -103,4 +103,25 @@ h2 {
     height: 52vh;
   }
 }
+.carou-collie-container {
+  height: 120px;
+  display: none;
+}
+@media all and (min-width: 576px) {
+  .carou-collie-container {
+    display: block;
+  }
+}
+
+.collie-img {
+  width: 170px;
+  height: 110px;
+}
+
+@media all and (min-width: 576px) {
+  .hide-medium {
+    display: none;
+  }
+}
+
 /* Color *//*# sourceMappingURL=main.css.map */
