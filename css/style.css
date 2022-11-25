@@ -1,13 +1,3 @@
-h1 {
-    background: linear-gradient(to right, #4242ff, grey, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-body {
-    color: beige;
-}
-
 #navbarSupportedContent {
     margin-right: 8%;
 }
