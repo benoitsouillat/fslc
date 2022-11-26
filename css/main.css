@@ -1,4 +1,5 @@
 /* Color */
+/* Screen Value */
 body {
   color: beige;
 }
@@ -6,14 +7,37 @@ body {
 h1,
 h2 {
   background: linear-gradient(to right, #4242ff, grey, red);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 15px;
   text-align: center;
 }
 
+.close-btn {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+}
+@media all and (min-width: 992px) {
+  .close-btn {
+    top: -20px;
+    right: -30px;
+  }
+}
+@media all and (max-width: 380px) {
+  .close-btn {
+    display: none;
+  }
+}
+
 #navbarSupportedContent {
   margin-right: 8%;
+}
+@media all and (min-width: 992px) {
+  #navbarSupportedContent {
+    margin-right: 15%;
+  }
 }
 
 #footer .list-icon {
@@ -35,6 +59,7 @@ h2 {
 }
 
 /* Color */
+/* Screen Value */
 #carou-discipline {
   height: 38vh;
 }
@@ -103,6 +128,8 @@ h2 {
     height: 52vh;
   }
 }
+/* Color */
+/* Screen Value */
 .carou-collie-container {
   height: 120px;
   display: none;
@@ -128,7 +155,7 @@ h2 {
   float: left;
   max-width: 25%;
   max-height: 100px;
-  margin: 15px;
+  margin: 8px;
   border-radius: 20%;
 }
 .sport-img__right {
@@ -137,7 +164,14 @@ h2 {
 @media all and (min-width: 576px) {
   .sport-img {
     max-width: 20%;
+    margin: 12px;
+  }
+}
+@media all and (min-width: 768px) {
+  .sport-img {
+    margin: 15px;
   }
 }
 
-/* Color *//*# sourceMappingURL=main.css.map */
+/* Color */
+/* Screen Value *//*# sourceMappingURL=main.css.map */

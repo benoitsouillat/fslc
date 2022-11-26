@@ -14,10 +14,27 @@ h2 {
     margin: 15px;
     text-align: center;
 }
+.close-btn {
+
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    @media all and (min-width: $lg) {
+        top: -20px;
+        right: -30px;
+    }
+    @media all and (max-width: $xs) {
+        display: none;
+    }
+}
 
 
 #navbarSupportedContent {
     margin-right: 8%;
+
+    @media all and (min-width: $lg) {
+        margin-right: 15%;
+    }
 }
 
 #footer {
