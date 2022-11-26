@@ -8,6 +8,7 @@ body {
 h1,
 h2 {
     background: linear-gradient(to right, #4242ff, grey, red);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 15px;
