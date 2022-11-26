@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (min-width: 576px)
+@media screen and (min-width: $sm)
 
 /* Little Screen */
     {
@@ -65,7 +65,7 @@
 
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: $md)
 
 /* Medium Screen */
     {
@@ -80,7 +80,7 @@
 
 }
 
-@media screen and (min-width: 992px)
+@media screen and (min-width: $lg)
 
 /* Large Screen */
     {
@@ -88,7 +88,7 @@
     }
 
 
-@media screen and (min-width: 1200px)
+@media screen and (min-width: $xl)
 
 /* Extra Large Screen */
     {

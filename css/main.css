@@ -124,4 +124,20 @@ h2 {
   }
 }
 
+.sport-img {
+  float: left;
+  max-width: 25%;
+  max-height: 100px;
+  margin: 15px;
+  border-radius: 20%;
+}
+.sport-img__right {
+  float: right;
+}
+@media all and (min-width: 576px) {
+  .sport-img {
+    max-width: 20%;
+  }
+}
+
 /* Color *//*# sourceMappingURL=main.css.map */

@@ -1,9 +1,10 @@
+@import 'variables';
 
 .carou-collie-container {
     height: 120px;
     display: none;
 
-    @media all and (min-width: 576px) {
+    @media all and (min-width: $sm) {
         display: block;
     }
 
@@ -13,7 +14,28 @@
     height: 110px;
 }
 .hide-medium {
-    @media all and (min-width: 576px) {
+    @media all and (min-width: $sm) {
         display: none;
+    }
+}
+.sport-img {
+
+    float: left;
+    max-width: 25%;
+    max-height: 100px;
+    margin: 8px;
+    border-radius: 20%;
+
+    &__right {
+        float: right;
+    }
+
+    @media all and (min-width: $sm) {
+        max-width: 20%;
+        margin: 12px;
+        
+    }
+    @media all and (min-width: $md) {
+        margin: 15px;
     }
 }
